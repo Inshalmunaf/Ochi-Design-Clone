@@ -7,9 +7,7 @@ export default defineConfig({
   theme: {
     extend: {
       fontFamily: {
-        founders: ["Founders Grotesk", "sans-serif"],
-        icomoon: ["IcoMoon", "sans-serif"],
-        montreal: ["Neue Montreal", "sans-serif"],
+        grotesk: ["FoundersGrotesk", "sans-serif"], // Custom font
       },
     },
   },

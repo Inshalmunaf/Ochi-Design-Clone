@@ -1,7 +1,13 @@
 @import "tailwindcss";
-
 @font-face {
-  font-family: 'Founders Grotesk';
-  src: url('.src/public/fonts/FoundersGrotesk-Semibold.otf') format('truetype');
-  font-weight: 600;
+  font-family: 'FoundersGrotesk';
+  src: url('/font/FoundersGroteskXCond-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FoundersGrotesk1';
+  src: url('/font/FoundersGrotesk-Semibold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
 }
