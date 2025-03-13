@@ -5,9 +5,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'FoundersGrotesk1';
-  src: url('/font/FoundersGrotesk-Semibold.otf') format('opentype');
-  font-weight: bold;
+  font-family: 'NeueMontreal';
+  src: url('/font/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: normal;
   font-style: normal;
 }
