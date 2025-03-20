@@ -5,9 +5,11 @@ import Landingpage from './components/Landingpage'
 import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/Eyes'
+import LocomotiveScroll from 'locomotive-scroll';
 
 
 function App() {
+  const scroll = new LocomotiveScroll();
 
   return (
     <>
