@@ -6,6 +6,7 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/Eyes'
 import LocomotiveScroll from 'locomotive-scroll';
+import Featured from './components/Featured'
 
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
 
   return (
     <>
-      <div className=" w-full min-h-screen text-white bg-zinc-900">
+      <div className=" w-full min-h-screen text-[#212121] bg-[#f1f1f1]">
         <Navbar/>
         <Landingpage/>
         <Marquee/>
         <About/>
         <Eyes/>
+        <Featured/>
       </div>
     </>
   )

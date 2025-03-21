@@ -4,14 +4,14 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function Landingpage() {
     return (
-        <div className='w-full h-full bg-zinc-900 pt-1'>
+        <div className='w-full h-full bg-[#f1f1f1] pt-1'>
 
             <div className="textstructure mt-40 px-20 ">
                 {["WE CREATE", "EYE OPENING", "PRESENTATION"].map((item, index) => {
             return (<div key={index} className="masker ">
                         <div className="w-fit flex items-end overflow-hidden">
                             {index === 1 && (<div className='mr-[1vw] w-[8vw] h-[5.7vw] rounded-md relative -top-[1.2vw] bg-red-600  '></div>)}
-                            <h1 style={{ fontFamily: 'FoundersGrotesk, sans-serif' }} className='pt-[2vw] -mb-[1vw]  uppercase text-[9vw] leading-[.75]  '>{item}</h1>
+                            <h1 style={{ fontFamily: 'FoundersGrotesk, sans-serif' }} className='pt-[2vw] -mb-[1vw]  uppercase text-[9vw] leading-[.75] text-[#212121] '>{item}</h1>
                         </div>
                     </div>
                     )
